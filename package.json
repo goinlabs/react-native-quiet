@@ -5,13 +5,12 @@
   "description": "🤫 Quiet for React Native.",
   "main": "index.js",
   "scripts": {
-    "postinstall": "cd android && rm -rf org.quietmodem.Quiet && git clone https://github.com/quiet/org.quietmodem.Quiet && cd ..",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cawfree/react-native-quiet.git",
-    "baseUrl": "https://github.com/cawfree/react-native-quiet"
+    "url": "git+https://github.com/goinlabs/react-native-quiet.git",
+    "baseUrl": "https://github.com/goinlabs/react-native-quiet"
   },
   "keywords": [
     "react",
@@ -26,8 +25,8 @@
     "chirp"
   ],
   "author": {
-    "name": "Alex Thomas (@cawfree)",
-    "email": "hello@cawfree.com"
+    "name": "goinlabs",
+    "email": "goinlabs@gmail.com"
   },
   "license": "MIT",
   "licenseFilename": "LICENSE",
